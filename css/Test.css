@@ -124,6 +124,24 @@ padding-top: 1px;
 .rl{
     margin-left: 2.5%;
 }
+
+.curvetext{
+   min-width: 90%;
+    min-height: 3vw;
+    background: #F3F2F0;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin: auto;
+     display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-bottom: 2%;
+       margin-top: 2%;
+}
+.curveimg{
+    width: 65%;
+    height:40vw;
+}
 @media screen and (max-width: 1200px) {
     
     .box{
