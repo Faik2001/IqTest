@@ -43,9 +43,10 @@ body{
 }
 
 .inrightpart{
+    border-radius: 2rem;
+    background-color: #F1F2F4;
     position: absolute;
-    height: 20vw;
-    width: 100%;  
+        padding: 10px; 
     text-align: center;
     position: relative;
     top:50%;
