@@ -1,0 +1,161 @@
+
+body{
+      margin: 0;
+    padding: 0;
+        font-family:  "Montserrat";
+      font-size: 18px;
+        box-sizing: border-box;
+    background: #FBFBFB;
+}
+.result{
+    display: none;
+    margin: auto;
+   text-align: center;
+     height: 35vw;
+    width: 80%; 
+    
+    flex-wrap: wrap;
+
+    
+}
+
+.brain{
+    
+
+  
+    max-width:100%;
+    left: 0;
+        
+}
+.leftpart{
+  
+    width:55%; 
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightpart{
+     height: 100%;
+    width: 35%;
+  margin: auto;
+   margin-bottom:1px; 
+    
+}
+
+.inrightpart{
+    position: absolute;
+    height: 20vw;
+    width: 100%;  
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.head{
+    font-weight: 600;
+     font-size: 20px;
+   margin-top: 10px;
+    margin-bottom: 1%;
+   text-align: center;
+}
+.box{
+    position: absolute;
+    width: 80%;
+    left: 0;
+    right: 0;
+    
+    margin:0 auto;
+padding-top: 1%;
+    text-align: center;
+    display: flex;
+    
+    
+}
+.left{  
+ 
+width: 45%; 
+padding-top: 1%;
+    
+    margin-right: 2%;
+    background-color:#EFF0F1;
+     box-shadow: 0px 0px 5px 5px #888888;
+    border-radius: 5px;
+    
+    
+}
+.right{
+width: 45%;  
+padding-top: 1px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.rightin{
+    font-weight: bold;
+    color: #414141;
+     width: 27%;
+    margin-left: 5%;
+    background: white;
+     box-shadow: 0px 0px 5px 5px #888888;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 2px;
+}
+.rightin:hover{
+    transition: .3s;
+   cursor: pointer;
+   
+    box-shadow: 0px 0px 5px 10px #888888;
+}
+
+.question{
+   
+    width: 80%;
+       
+    
+}
+.answer{
+    width: 100%;
+     
+    
+ 
+}
+.rl{
+    margin-left: 2.5%;
+}
+@media screen and (max-width: 1200px) {
+    
+    .box{
+        margin-top: 30px;
+        width: 80%;
+        flex-wrap: wrap;
+        
+    }
+    .left{
+        width: 100%;
+        
+        margin-bottom: 30px;
+    }
+    .right{
+        width: 100%;
+    }
+    .rightin{
+       
+       
+        margin-bottom: 30px;
+    }
+    .leftpart{
+        width: 100%;
+    }
+    .result{
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+    .leftpart{
+        
+    }
+    .rightpart{
+         height: 300px;
+    width: 100%;
+    }
+}

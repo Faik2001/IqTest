@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+      <link  rel="stylesheet" type="text/css" href="css/index1.css">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+   <div class="head">
+ <div class="leftpart">
+    <img src="image/1330547_02.jpg" class="brain">
+    </div>
+    <div class="rightpart">
+        <div class="inrightpart">
+            <h1 >IQ Test</h1>
+            <p class="headtext">Make sure you are in a quiet place where you can focus.
+
+You are about to solve 30 visual exercises that gradually increase in difficulty.
+
+There is no time limit, but do not distract yourself during the test.
+
+Do not use the internet or any external help.
+
+When you are ready, click on the button below to begin.</p>
+       <a href="test.php" class="btn" >Start</a>
+        </div>
+    </div>
+    </div>
+    <div class="body">
+        <p>What is the IQ test ?
+
+IQ test which is also known as ‘Intelligence Quotient’ test, comes in various forms. It was first used in France to diagnose students with learning disabilities so they receive what nowadays is called special education. At the present time, it’s not only used to identify those with mental disabilities but also to identify those who are intellectually gifted.
+   An IQ score is calculated based on a norm group with an average score of 100 and a standard deviation of 15. The standard deviation of 15 means, 68% of individuals have scored between 85 and 115. This means the average score will always be 100 and 95% of individuals will score between 70 and 130.
+   The purpose of taking an IQ test is to measure intelligence, to measure one’s reasoning and problem solving abilities; and to analyze one’s mathematical understanding, language abilities as well as short term memory and information processing speed.
+   Based on the bell curve, an IQ score of 100 is considered the average and typically a score above 100 is associated with high intelligence. Scores ranging from 130 and above are considered to be in the extreme intelligence category while those with an IQ higher than 140  are considered gifted.
+   Those who score below 85 are considered to be associated with low intelligence. A score below 70, is usually considered mentally handicap and may indicate an underlying learning disability.
+
+Note : A high or low score doesn’t mean that someone is particularly smart, but it means that the person has “potential”.</p>
+  <div  class="curvetext">
+Bell Curve representation of the IQ scores as well as a bar chart representation. The average IQ is always 100.</div>
+   <div class="curve">
+       <h2>Bell Curve % Classification</h2>
+        <img src="image/1200px-IQ_curve.svg.png" class="curveimg">
+    </div>
+    </div>
+    
+</body>
+</html>
